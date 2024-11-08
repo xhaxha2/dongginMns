@@ -8132,7 +8132,7 @@ textarea.form-control-lg {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(13, 202, 240, 0.3) !important; /* 반투명한 배경색 설정 */
+  background-color: rgba(13, 202, 240, 0.5) !important; /* 반투명한 배경색 설정 */
 }
 
 .bg-success {
