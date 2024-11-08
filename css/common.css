@@ -1,0 +1,88 @@
+/* 전체 배경 및 텍스트 색상 */
+.masthead {
+  background-color: #F5F5F5;
+  color: #333;
+  padding: 100px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 텍스트 로고 */
+.masthead-logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00695C; /* 짙은 청록색으로 신뢰감 표현 */
+}
+
+/* 구분선 */
+.divider-custom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.divider-custom-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #004D40;
+}
+
+.divider-custom-icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #004D40;
+}
+
+/* 소개 문구 */
+.masthead-subtitle {
+  font-size: 1.2rem;
+  color: #004D40;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* 네비게이션 바 스타일 */
+#mainNav {
+  background-color: #2C3E50;
+  color: white;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+
+
+.table thead {
+  background-color: #0dcaf0;
+  color: white;
+}
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.carousel-item {
+  height: 300px;
+}
+.carousel-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
