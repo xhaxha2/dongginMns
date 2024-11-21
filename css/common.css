@@ -1,7 +1,62 @@
+
+@media (max-width: 576px) {
+  .masthead {
+    padding: 50px 0;
+  }
+  .mt-5{
+    margin-top: 28rem !important;
+  }
+  .masthead-logo {
+    font-size: 2rem;
+  }
+}
+
+/* 전체 텍스트 스타일링 */
+.mt5-custom{
+  margin-top: 8rem !important;
+}
+/* 강조된 텍스트 스타일 */
+strong {
+  font-weight: bold; /* 굵은 글씨 */
+  color: #ff7f00; /* 주황색으로 강조 */
+}
+.text-light-custom {
+  color: #f8f9fa; /* 텍스트 색상을 밝은 색으로 설정 */
+  font-family: 'Arial', sans-serif; /* 폰트 가족을 설정 */
+  line-height: 1.6; /* 줄 간격을 적당히 설정 */
+  letter-spacing: 0.5px; /* 글자 사이 간격 조정 */
+  font-weight: 300; /* 폰트 두께 조정 */
+  text-align: justify; /* 텍스트 양쪽 정렬 */
+  margin-bottom: 30px; /* 아래쪽 여백 추가 */
+}
+
+/* h5 텍스트 크기 조정 */
+.h5-custom {
+  font-size: 1.2rem; /* 기본 글씨 크기 조정 */
+  font-family: 'Noto Sans', sans-serif; /* 세련된 한글 폰트 */
+}
+
+/* 화면 크기에 따라 글꼴 크기 조정 */
+@media (max-width: 768px) {
+  .h5-custom {
+    font-size: 1rem; /* 모바일에서 텍스트 크기 조정 */
+  }
+}
+
+/* 텍스트에 배경 색상과 그림자 추가 */
+.text-light-custom {
+  background-color: rgba(0, 0, 0, 0.3); /* 어두운 배경으로 텍스트 강조 */
+  padding: 20px;
+  border-radius: 8px; /* 테두리 둥글게 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+
+
 /* Tab 버튼 기본 스타일 */
 .custom-tab {
   background-color: blueviolet !important;
-  border-bottom: solid 2px snow;
+  border-bottom: solid 2px blueviolet;
   color: white;
 }
 
