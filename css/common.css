@@ -127,6 +127,55 @@ strong {
   color: white;
 }
 
+/* SMS Modal Dialog */
+.sms-modal-dialog {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+/* SMS Modal Content */
+.sms-modal-content {
+  background: linear-gradient(135deg, #ffdfd4, #ffe3e1);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sms-modal-text{
+  color: black;
+}
+/* SMS Modal Header */
+.sms-modal-header {
+  background-color: #ff6f61;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sms-modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sms-modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.sms-modal-close:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* SMS
+
+
+ */
 /* 네비게이션 링크 스타일 */
 .nav-link {
   color: white !important;
