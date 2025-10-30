@@ -32,7 +32,7 @@ async function submit() {
   if (!validate()) return
 
   try {
-    const res = await fetch('https://formspree.io/f/mqaglayj', {
+    const res = await fetch('https://formspree.io/f/meopzadg', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(form),
