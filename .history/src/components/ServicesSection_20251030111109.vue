@@ -85,7 +85,7 @@ onBeforeUnmount(() => {
           <div class="text-3xl mb-3">{{ svc.icon }}</div>
           <h3 class="text-lg font-semibold">{{ svc.title }}</h3>
           <p class="text-sm text-slate-600 mt-2">{{ svc.desc }}</p>
-          <p class="text-xs text-green-500 mt-4 inline-flex items-center gap-1">갤러리 보기 →</p>
+          <p class="text-xs text-blue-500 mt-4 inline-flex items-center gap-1">갤러리 보기 →</p>
         </article>
       </div>
     </div>

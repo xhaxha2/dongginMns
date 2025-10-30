@@ -30,7 +30,7 @@ const smsLink = 'sms:010-4505-7575'
         <h3 class="text-sm font-semibold text-slate-900">Contact</h3>
         <p class="text-slate-500">Tel. 02-803-3355</p>
         <p class="text-slate-500">Mobile. 010-4505-7575</p>
-        <p class="text-slate-500">Email. skt7090@naver.com</p>
+        <p class="text-slate-500">Email. sky7090@naver.com</p>
       </div>
 
       <!-- 바로가기 -->

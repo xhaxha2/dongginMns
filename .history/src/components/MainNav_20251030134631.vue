@@ -3,7 +3,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 import logo from '@/assets/logo.png'
 
 const scrolled = ref(false)
-const activeId = ref('page-top')
+const activeId = ref<'page-top' | 'services' | 'auth' | 'projects' | 'contact'>('page-top')
 const isOpen = ref(false)
 
 // 실제로 너가 페이지에 있는 섹션 id만 적어
@@ -24,7 +24,7 @@ const handleScroll = () => {
     }
   }
 
-  activeId.value = current ?? 'page-top'
+  activeId.value = current
 }
 
 onMounted(() => {

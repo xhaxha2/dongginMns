@@ -24,7 +24,7 @@ const handleScroll = () => {
     }
   }
 
-  activeId.value = current ?? 'page-top'
+  activeId?.value = current
 }
 
 onMounted(() => {
