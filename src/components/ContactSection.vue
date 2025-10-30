@@ -91,7 +91,7 @@ async function submit() {
 
       <!-- 오른쪽 폼 -->
       <form class="card-soft p-6 space-y-4" @submit.prevent="submit">
-        <input text="문의번호" type="hidden" :value="ticket" />
+        <input name="문의번호" type="hidden" :value="ticket" />
         <!-- 에러 박스 -->
         <div v-if="errors.length" class="rounded-xl bg-red-50 border border-red-100 p-3 space-y-1">
           <p class="text-sm font-medium text-red-700">입력값을 확인해주세요.</p>
