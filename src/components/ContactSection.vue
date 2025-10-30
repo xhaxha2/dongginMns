@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
-
+const ticket = ref('')
 const form = reactive({
   name: '',
   phone: '',
@@ -9,10 +9,10 @@ const form = reactive({
   area: '',
   message: '',
   agree: false,
+  ticket: ticket,
 })
 const errors = ref<string[]>([])
 const done = ref(false)
-const ticket = ref('')
 
 function validate() {
   errors.value = []
@@ -30,6 +30,11 @@ function validate() {
 
 async function submit() {
   if (!validate()) return
+  ticket.value =
+    'DJ-' +
+    Math.floor(Math.random() * 999999)
+      .toString()
+      .padStart(6, '0')
 
   try {
     const res = await fetch('https://formspree.io/f/meopzadg', {
@@ -40,12 +45,6 @@ async function submit() {
 
     if (!res.ok) throw new Error()
 
-    ticket.value =
-      'DJ-' +
-      Math.floor(Math.random() * 999999)
-        .toString()
-        .padStart(6, '0')
-    done.value = true
     Object.assign(form, {
       name: '',
       phone: '',
@@ -55,6 +54,7 @@ async function submit() {
       message: '',
       agree: false,
     })
+    done.value = true
   } catch {
     errors.value = ['전송에 실패했습니다.']
   }
