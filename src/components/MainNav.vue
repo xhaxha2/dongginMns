@@ -2,17 +2,15 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import logo from '@/assets/logo.png'
 
-const scrolled = ref(false)
 const activeId = ref('page-top')
 const isOpen = ref(false)
 
-// 실제로 너가 페이지에 있는 섹션 id만 적어
+// 실제 있는 섹션만
 const SECTION_IDS = ['page-top', 'services', 'auth', 'projects', 'contact']
 
 const handleScroll = () => {
-  scrolled.value = window.scrollY > 10
-
-  const scrollY = window.scrollY + 110 // ✅ 헤더 높이만큼 보정 (필요하면 90~120 사이로 조절)
+  // 헤더 높이만큼 보정 (네 헤더가 56~64px 이니까 110으로 조금 여유)
+  const scrollY = window.scrollY + 110
   let current = SECTION_IDS[0]
 
   for (const id of SECTION_IDS) {
@@ -29,7 +27,6 @@ const handleScroll = () => {
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll, { passive: true })
-  // 첫 진입 시에도 한 번 계산
   handleScroll()
 })
 
@@ -49,12 +46,7 @@ const goTo = (id: string) => {
 
 <template>
   <header
-    :class="[
-      'fixed top-0 inset-x-0 z-50 transition-all duration-300',
-      scrolled
-        ? 'bg-white/85 backdrop-blur border-b border-slate-200/80 shadow-sm'
-        : 'bg-transparent',
-    ]"
+    class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200/80 shadow-sm"
   >
     <div class="container-x h-14 md:h-16 flex items-center justify-between">
       <!-- 로고 -->

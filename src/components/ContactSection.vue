@@ -72,7 +72,7 @@ async function submit() {
         <p class="text-slate-500">현장 정보와 연락처만 남겨주시면 담당자가 확인 후 연락드립니다.</p>
 
         <ul class="text-sm text-slate-500 space-y-2">
-          <li>• 영업시간: 평일 09:00 ~ 18:00</li>
+          <li>• 영업시간: 평일 09:00 ~ 17:00</li>
           <li>• 서비스 지역: 수도권(서울/경기/인천)</li>
           <li>• 긴급 소독/저수조는 전화 문의 권장</li>
         </ul>
