@@ -60,7 +60,7 @@ const goTo = (id: string) => {
       <!-- 로고 -->
       <button class="flex items-center gap-2" @click="goTo('page-top')">
         <img :src="logo" alt="동진M&S 로고" class="h-8 w-auto" />
-        <span class="hidden md:inline font-semibold text-slate-900">동진M&S</span>
+        <span class="hidden md:inline font-semibold text-slate-900">동진엠엔에스</span>
       </button>
 
       <!-- 데스크톱 메뉴 -->
