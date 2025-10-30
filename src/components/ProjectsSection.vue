@@ -148,7 +148,7 @@ const goPage = (p: number) => {
 </script>
 
 <template>
-  <section id="projects" class="section bg-slate-50/60">
+  <section id="projects" class="bg-white py-16 md:py-20">
     <div class="container-x">
       <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">회사실적</h2>
       <p class="text-slate-500 mt-2">주요 단지/건물 위생관리 이력</p>
