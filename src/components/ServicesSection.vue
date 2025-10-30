@@ -80,11 +80,11 @@ onBeforeUnmount(() => {
         <div
           class="rounded-2xl border border-slate-100 bg-slate-50/50 p-6 hover:-translate-y-1 hover:shadow-md transition"
         >
-          <h3 class="text-base font-semibold text-slate-900 mb-2">저수조 청소·소독</h3>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">수목·조경 살포</h3>
           <p class="text-sm text-slate-500 mb-3">
-            건물 내 급수 설비의 위생상태를 점검하고 법적 기준에 맞춰 청소/소독을 진행합니다.
+            단지 내 수목의 병충해 방제, 미관 유지 목적의 약제 살포를 안전하게 진행합니다.
           </p>
-          <p class="text-xs text-slate-400">정기점검 · 법정 점검 지원</p>
+          <p class="text-xs text-slate-400">단지·상가·공원</p>
         </div>
         <div
           class="rounded-2xl border border-slate-100 bg-white p-6 hover:-translate-y-1 hover:shadow-md transition"
@@ -98,11 +98,11 @@ onBeforeUnmount(() => {
         <div
           class="rounded-2xl border border-slate-100 bg-slate-50/50 p-6 hover:-translate-y-1 hover:shadow-md transition"
         >
-          <h3 class="text-base font-semibold text-slate-900 mb-2">수목·조경 살포</h3>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">저수조 청소·소독</h3>
           <p class="text-sm text-slate-500 mb-3">
-            단지 내 수목의 병충해 방제, 미관 유지 목적의 약제 살포를 안전하게 진행합니다.
+            건물 내 급수 설비의 위생상태를 점검하고 법적 기준에 맞춰 청소/소독을 진행합니다.
           </p>
-          <p class="text-xs text-slate-400">단지·상가·공원</p>
+          <p class="text-xs text-slate-400">정기점검 · 법정 점검 지원</p>
         </div>
       </div>
     </div>

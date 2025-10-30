@@ -112,7 +112,7 @@ const goTo = (id: string) => {
       <!-- CTA -->
       <button
         type="button"
-        class="hidden md:inline-flex px-4 py-2 rounded bg-blue-600 text-white text-sm hover:bg-blue-700 transition"
+        class="hidden md:inline-flex px-4 py-2 rounded bg-blue-700 text-white text-sm hover:bg-bule-800 transition"
         @click="goTo('contact')"
       >
         견적문의

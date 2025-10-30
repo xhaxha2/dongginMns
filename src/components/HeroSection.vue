@@ -97,7 +97,6 @@ import mainBannerImg from '@/assets/img/header.jpg'
           <!-- 오버레이 정보 -->
           <div class="mt-4 flex items-center justify-between gap-4">
             <div>
-              <p class="text-xs text-slate-200/70">현재 진행중</p>
               <p class="text-sm text-slate-50 font-medium">저수조 청소ㆍ소독 패키지</p>
             </div>
             <span
